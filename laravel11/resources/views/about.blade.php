@@ -1,4 +1,4 @@
-<html lang="en">
+{{-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,4 +10,11 @@
     <h3>Owner : {{$nama}} </h3>
     
 </body>
-</html>
+</html> --}}
+
+
+<x-layout class="text-xl">
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h1>Halaman About</h1>
+    <h3>Owner : {{ $nama }} </h3>
+</x-layout>
